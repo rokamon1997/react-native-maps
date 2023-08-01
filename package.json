@@ -1,5 +1,5 @@
 {
-  "name": "@zaki/react-native-maps",
+  "name": "react-native-maps-fork-ra",
   "description": "React Native Mapview component for iOS + Android",
   "source": "src/index",
   "main": "lib/index.js",
