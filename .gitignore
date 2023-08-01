@@ -45,7 +45,7 @@ yarn-error.log
 .vscode
 
 # ts outDir
-lib/
+#lib/
 
 example/vendor/bundle/
 
