@@ -72,6 +72,16 @@ export type MapOverlayProps = ViewProps & {
    * @platform Android: Supported
    */
   tappable?: boolean;
+
+  /**
+   * The order in which this overlay is drawn with respect to other overlays.
+   * An overlay with a larger z-index is drawn over overlays with smaller z-indices.
+   * The order of overlays with the same z-index is arbitrary.
+   *
+   * @platform iOS: Google Maps only
+   * @platform Android: Supported
+   */
+  zIndex?: number;
 };
 
 type NativeProps = Modify<MapOverlayProps, {image?: string}>;
