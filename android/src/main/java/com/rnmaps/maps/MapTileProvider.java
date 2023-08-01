@@ -351,6 +351,8 @@ public class MapTileProvider implements TileProvider {
 
 		try {
 			URLConnection conn = url.openConnection();
+			conn.addRequestProperty("Authorization", "Basic test-token-test-token");
+
 			in = conn.getInputStream();
 			buffer = new ByteArrayOutputStream();
 
