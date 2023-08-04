@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/react-native-maps/react-native-maps.git", :tag=> "v#{s.version}" }
+  s.source       = { :git => "https://github.com/rokamon1997/react-native-maps.git", :tag=> "v#{s.version}" }
   s.source_files  = "ios/AirMaps/**/*.{h,m}"
 
   s.dependency 'React-Core'
