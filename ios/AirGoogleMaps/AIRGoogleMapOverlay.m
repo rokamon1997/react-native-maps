@@ -82,6 +82,12 @@
     _overlay.bearing = _bearing;
 }
 
+-(void)setZIndex:(int)zIndex
+{
+  _zIndex = zIndex;
+  _overlay.zIndex = zIndex;
+}
+
 - (void)setOpacity:(CGFloat)opacity
 {
   _overlay.opacity = opacity;
