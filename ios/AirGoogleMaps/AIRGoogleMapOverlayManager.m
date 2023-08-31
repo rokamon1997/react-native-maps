@@ -20,6 +20,5 @@ RCT_REMAP_VIEW_PROPERTY(bounds, boundsRect, NSArray)
 RCT_REMAP_VIEW_PROPERTY(bearing, bearing, double)
 RCT_REMAP_VIEW_PROPERTY(image, imageSrc, NSString)
 RCT_REMAP_VIEW_PROPERTY(opacity, opacity, CGFloat)
-RCT_EXPORT_VIEW_PROPERTY(zIndex, int)
 
 @end

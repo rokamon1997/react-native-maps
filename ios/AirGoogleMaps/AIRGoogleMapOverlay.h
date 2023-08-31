@@ -21,7 +21,6 @@
 @property (nonatomic, assign) CGFloat opacity;
 @property (nonatomic, readonly) GMSCoordinateBounds *overlayBounds;
 @property (nonatomic, readonly) double bearing;
-@property (nonatomic, assign) int zIndex;
 
 @property (nonatomic, weak) RCTBridge *bridge;
 
