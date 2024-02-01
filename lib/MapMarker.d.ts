@@ -276,10 +276,6 @@ export declare class MapMarker extends React.Component<MapMarkerProps> {
     static Animated: Animated.AnimatedComponent<typeof MapMarker>;
     private marker;
     constructor(props: MapMarkerProps);
-    /**
-     * @deprecated Will be removed in v2.0.0, as setNativeProps is not a thing in fabric.
-     * See https://reactnative.dev/docs/new-architecture-library-intro#migrating-off-setnativeprops
-     */
     setNativeProps(props: Partial<NativeProps>): void;
     showCallout(): void;
     hideCallout(): void;
